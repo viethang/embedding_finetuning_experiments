@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "embedding-finetuning"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+llama-index-finetuning = "0.1.4"
+llama-index = "^0.10.25"
+llama-index-llms-openai = "^0.1.13"
+llama-index-embeddings-huggingface = "^0.2.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
